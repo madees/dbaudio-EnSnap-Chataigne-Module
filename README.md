@@ -21,3 +21,15 @@ To install the Custom Module, unzip the folder to your Documents/Chataigne/Modul
 You may use Module Commands to control EnSnap software.
 This module is output only.
 
+Example of application : fire cues from a MIDI Module control change value or Powerpoint Module slide number...
+
+## Comands
+
+# OSC Cue Control Enable state
+Enables or disables OSC cue firing controls.
+
+# Enable ALL Cue Control
+Re-enables both OSC and MTC cue firing controls if they have been previously disabled.
+
+# OSC Cue GOs
+Fires a cue by name.
