@@ -1,0 +1,76 @@
+{
+	"name": "d&b EnSnap OSC Control",
+	"type": "OSC",
+	"path": "Software",
+	
+	"version": "1.1.1",
+	"description": "Module to control the d&b audiotechnik EnSnap software by OSC.\n\nPlease visit https://www.dbsoundscape.com/ to learn more about d&b Soundscape and DS100, especially download the TI501 'd&b Soundscape System design and operation' and DS100 OSC protocol white paper.\n\nChataigne Module specific documentation can be found in the README on GitHub:",
+	"url": "https://github.com/madees/dbaudio-EnSnap-Chataigne-Module",
+	"downloadURL": "https://github.com/madees/dbaudio-EnSnap-Chataigne-Module/archive/master.zip",
+	
+	"hasInput": false,
+	"hasOutput": true, 
+	"hideDefaultCommands": true,
+	"hideDefaultParameters": [
+		"autoRange",
+		"autoFeedback",
+		"pass_through",
+		"input",
+		"outputs",
+		"useHierarchy"
+	],
+	
+	"defaults": {
+		"autoAdd": false,
+		"oscInput": {
+			"localPort": 50021
+		},
+		"OSC Outputs": {
+			"OSC Output": {
+				"local": false,
+				"remoteHost": "192.168.1.200",
+				"remotePort": 50020
+			}
+		}
+	},
+	"scripts": [
+		"EnSnap-OSC.js"
+	],
+	"commands": 
+	{
+		"OSC Cue Control":
+		{
+			"menu":"",
+			"callback":"OSCCueControl",
+			"parameters":
+			{
+				"Enable":
+				{
+				"type":"Boolean"
+				}
+			}
+		},
+
+		"Enable ALL Cue controls":
+		{
+			"menu":"",
+			"callback":"enableAllCue",
+			"parameters":
+			{
+			}
+		},
+
+		"GO to Cue":
+		{
+			"menu":"",
+			"callback":"goCue",
+			"parameters":
+			{
+				"Cue Name":
+				{
+					"type":"String"
+				}
+			}
+		}
+	}
+}
