@@ -2,7 +2,6 @@
 Chataigne module to control d&amp;b audiotechnik/Gareth Owen EnSnap software with OSC protocol.  
 
 To learn more about Chataigne, please visit : http://benjamin.kuperberg.fr/chataigne/
-
 And Ben's Youtube channel where you can find tutorials : https://youtu.be/RSBU9MwJNLY
 
 About EnSnap software : https://www.dbaudio.com/global/en/about-db/press/newsroom/db-audiotechnik-partners-with-gareth-owen-sound-to-advance-soundscape/
