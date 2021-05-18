@@ -3,6 +3,8 @@ Chataigne module to control d&amp;b audiotechnik/Gareth Owen En-Snap software wi
 
 This community module is NOT OFFICIALLY supported by d&b audiotechnik. It is publicly available to enable interested users to experiment, extend and create their own adaptations. There is no guarantee for compatibility inbetween versions or for the implemented functionality to be reliable for professional. Use what is provided here at your own risk!
 
+That being said, of course I've done my best to provide a fully functionnal and reliable module, and as much support as I can.
+
 To learn more about Chataigne, please visit : http://benjamin.kuperberg.fr/chataigne/
 
 And Ben's Youtube channel where you can find tutorials : https://youtu.be/RSBU9MwJNLY
