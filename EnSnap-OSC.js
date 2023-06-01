@@ -1,4 +1,4 @@
-/* Chataigne Module for d&b audiotechnik/Gareth Owen EnSnap software OSC control v1.1.1 (c) Mathieu Delquignies, 02/2021
+/* Chataigne Module for d&b audiotechnik/Gareth Owen EnSnap software OSC control v1.1.2 (c) Mathieu Delquignies, 03/2023
 ===============================================================================
 
 Redistribution and use in source and binary forms, with or without
